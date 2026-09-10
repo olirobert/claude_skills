@@ -9,6 +9,7 @@ and how Claude should use it.
 | Skill | Description |
 |---|---|
 | [`finalize-draft`](./finalize-draft) | Turns a draft file into a finalized version by resolving naming and clarifying content ambiguity with the user. |
+| [`prepare-plan`](./prepare-plan) | Prepares a plan to implement a project or task described in a markdown file, saving the plan alongside the source file. |
 
 ## Install
 
