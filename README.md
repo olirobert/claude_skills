@@ -8,8 +8,14 @@ and how Claude should use it.
 
 | Skill | Description |
 |---|---|
+| [`do-next-plan-step`](./do-next-plan-step) | Implements the next step (or the one already in progress) of the current plan, without committing. |
+| [`done-plan-step`](./done-plan-step) | Marks the in-progress plan step done in the plan file and `current-plan.md`, without committing any changes. |
+| [`end-plan`](./end-plan) | Ends execution of the current plan by deleting `.plan/current-plan.md`. |
 | [`finalize-draft`](./finalize-draft) | Turns a draft file into a finalized version by resolving naming and clarifying content ambiguity with the user. |
+| [`finalize-plan-step`](./finalize-plan-step) | Commits the changes made by the in-progress plan step and marks it done in the plan file and `current-plan.md`. |
 | [`prepare-plan`](./prepare-plan) | Prepares a plan to implement a project or task described in a markdown file, saving the plan alongside the source file. |
+| [`restart-plan`](./restart-plan) | Resets progress tracking on the current plan without changing which plan file is active. |
+| [`start-plan`](./start-plan) | Starts execution of a plan file by creating `.plan/current-plan.md` to track progress across skill calls. |
 
 ## Install
 
