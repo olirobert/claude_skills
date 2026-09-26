@@ -16,3 +16,8 @@ for its location and schema).
 Otherwise, update `.plan/current-plan.md` to clear both `step_in_progress`
 and `last_step_done` (i.e. no step in progress, no last step done).
 `plan_file` is left unchanged.
+
+In the plan file referenced by `current-plan.md`'s `plan_file` (plan
+format: see the `prepare-plan` skill):
+- flip all `## Progress` checklist entries to `[ ]`
+- flip all steps' `**Status:**` markers to `[ ] Done`
