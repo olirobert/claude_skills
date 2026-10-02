@@ -27,4 +27,4 @@ schema):
 - set `last_step_done` to the step just finalized
 
 Report a short summary of what was committed, and remind the user to run
-`/clean` before starting the next step with `/do-next-plan-step`.
+`/clear` before starting the next step with `/do-next-plan-step`.
